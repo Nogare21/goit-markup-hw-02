@@ -1,3 +1,4 @@
+/* styles.css */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -59,4 +60,26 @@ a {
 
 .page-footer {
   background-color: #2e2f42;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.button-order {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #4d5ae5;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button-order:hover,
+.button-order:focus {
+  background-color: #404bbf;
 }

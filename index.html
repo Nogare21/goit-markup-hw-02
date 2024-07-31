@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -22,21 +26,21 @@
           >Web<span class="logo-part">Studio</span></a
         >
         <ul class="nav-list">
-          <li class="nav-ittem">
+          <li class="nav-item">
             <a class="nav-link" href="./index.html">Studio</a>
           </li>
           <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
           <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <addres class="contacts">
+      <address class="contacts">
         <ul class="contacts-list">
           <li class="contacts-item">
             <a class="contacts-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="contacts-list">
+          <li class="contacts-item">
             <a class="contacts-link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
@@ -44,10 +48,10 @@
         </ul>
       </address>
     </header>
-    <main>
+    <main class="content-page">
       <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="title">Effective Solutions for Your Business</h1>
+        <button class="button-order" type="button">Order Service</button>
       </section>
       <section>
         <h2 hidden>Features</h2>
@@ -129,7 +133,9 @@
       </section>
     </main>
     <footer class="page-footer">
-      <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
+      <a class="logo footer-logo" href="./index.html"
+        >Web<span class="logo-part">Studio</span></a
+      >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
